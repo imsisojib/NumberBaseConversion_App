@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pageSubject"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorGreen"
+
+            />
+
+        <Button
+            android:text="@string/page1SonkhaTotthoki"
+            android:id="@+id/sonkhatottho"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/newTextColor"
+
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/newTextColor"
+
+            android:text="@string/sonkhaPoddhotirVitti"
+            android:id="@+id/sonkharVitti"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/newTextColor"
+
+            android:text="@string/sthanioman"
+            android:id="@+id/sonkharman"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/newTextColor"
+
+            android:text="@string/page1Prokarved"
+            android:id="@+id/prokarved"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/newTextColor"
+            android:text="@string/page1Bin"
+            android:id="@+id/binaryPage"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/newTextColor"
+            android:text="@string/page1Octal"
+            android:id="@+id/octalPage"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/newTextColor"
+            android:text="@string/page1Decimal"
+            android:id="@+id/decimalPage"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buttonBackground"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/newTextColor"
+            android:text="@string/page1Hexa"
+            android:id="@+id/hexaPage"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+

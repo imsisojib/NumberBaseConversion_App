@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColorGreen"
+    tools:context="com.example.sojib.numberconversion2.SonkhaPoddhotirProkarved">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sonkhaPoddhotirProkarvedHeadline"
+                android:padding="5dp"
+                android:textColor="@color/newTextColor"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textAlignment="textStart"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/sonkhaPoddhotirProkarvedText"
+                android:textColor="@color/newTextColor"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/sonkhaPoddhotirProkarvedText2"
+                android:textColor="@color/newTextColor"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/sonkhaPoddhotirProkarvedText3"
+                android:textColor="@color/newTextColor"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

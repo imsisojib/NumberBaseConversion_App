@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sojib.numberconversion2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BinaryToDecimal"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".DecimalToBinary"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".DecimalToOctal"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".OctalToDecimal"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".DecimalToHexa"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".HexaToDecimal"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".BinaryToOctal"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".OctalToBinary"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".BinaryToHexa"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".HexaToBinary"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".OctalToHexa"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".HexaToOctal"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".DeveloperInfo"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".Page1"
+            android:parentActivityName=".MainActivity"/>
+
+
+
+        <activity android:name=".BinToDecRupantor"
+            android:parentActivityName=".BinaryText"/>
+        <activity android:name=".BinToOctRupantor"
+            android:parentActivityName=".BinaryText"/>
+        <activity android:name=".BinToHexaRupantor"
+            android:parentActivityName=".BinaryText"/>
+
+
+        <activity android:name=".SonkhaPoddhotiKi"
+            android:parentActivityName=".Page1"/>
+        <activity android:name=".SonkhaPoddhotirVitti"
+            android:parentActivityName=".Page1"/>
+        <activity android:name=".Sthanioman"
+            android:parentActivityName=".Page1"/>
+        <activity android:name=".SonkhaPoddhotirProkarved"
+            android:parentActivityName=".Page1"/>
+        <activity android:name=".OctalPage"
+            android:parentActivityName=".Page1"/>
+        <activity android:name=".DecimalPage"
+            android:parentActivityName=".Page1"/>
+        <activity android:name=".HexaPage"
+            android:parentActivityName=".Page1"/>
+        <activity android:name=".BinaryText"
+            android:parentActivityName=".Page1"/>
+
+
+        <activity android:name=".OctalToBinaryPageText"
+            android:parentActivityName=".OctalPage"/>
+        <activity android:name=".OctalToDecimalPageText"
+            android:parentActivityName=".OctalPage"/>
+        <activity android:name=".OctalToHexaPageText"
+            android:parentActivityName=".OctalPage"/>
+
+
+        <activity android:name=".DecimalToBinaryTextPage"
+            android:parentActivityName=".DecimalPage"/>
+        <activity android:name=".DecimalToOctalTextPage"
+            android:parentActivityName=".DecimalPage"/>
+        <activity android:name=".DecimalToHexaTextPage"
+            android:parentActivityName=".DecimalPage"/>
+
+
+        <activity android:name=".HexatoBinTextPage"
+            android:parentActivityName=".HexaPage"/>
+        <activity android:name=".HexaToOctalPageText"
+            android:parentActivityName=".HexaPage"/>
+        <activity android:name=".HexaToDecimalPageText"
+            android:parentActivityName=".HexaPage"></activity>
+    </application>
+
+</manifest>

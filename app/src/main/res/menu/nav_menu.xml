@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/binToDec"
+        android:title="@string/binaryToDecimal"
+         android:icon="@mipmap/green">
+    </item>
+    <item android:id="@+id/binToOct"
+    android:icon="@mipmap/green"
+    android:title="@string/binaryToOctal">
+    </item>
+    <item android:id="@+id/binToHexa"
+    android:icon="@mipmap/green"
+    android:title="@string/binaryToHexa">
+    </item>
+    <item
+    android:id="@+id/octToBin"
+    android:icon="@mipmap/green"
+    android:title="@string/octalToBinary">
+    </item>
+    <item android:id="@+id/octToDec"
+    android:icon="@mipmap/green"
+    android:title="@string/octalToDecimal">
+    </item>
+    <item android:id="@+id/octToHexa"
+    android:icon="@mipmap/green"
+    android:title="@string/octalToHexa">
+    </item>
+    <item android:id="@+id/decToBin"
+    android:icon="@mipmap/green"
+    android:title="@string/decimalToBinary">
+    </item>
+    <item android:id="@+id/decToOct"
+    android:icon="@mipmap/green"
+    android:title="@string/decimalToOctal">
+    </item>
+    <item android:id="@+id/decToHexa"
+    android:icon="@mipmap/green"
+    android:title="@string/decimalToHexa">
+    </item>
+    <item android:id="@+id/hexaToBin"
+    android:icon="@mipmap/green"
+    android:title="@string/hexaToBinary">
+    </item>
+    <item android:id="@+id/hexaToOct"
+    android:icon="@mipmap/green"
+    android:title="@string/hexaToOctal">
+    </item>
+    <item android:id="@+id/hexaToDec"
+    android:icon="@mipmap/green"
+    android:title="@string/hexaToDecimal">
+    </item>
+
+    <item android:id="@+id/dev_id"
+        android:title="@string/devInfo"
+        android:icon="@mipmap/devicon">
+
+    </item>
+
+    <item android:id="@+id/exit_id"
+        android:title="@string/exit"
+        android:icon="@mipmap/exit">
+    </item>
+
+
+</menu>

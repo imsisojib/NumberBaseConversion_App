@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColorGreen"
+    tools:context="com.example.sojib.numberconversion2.OctalToHexaPageText">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/OctalToHexaHeadline"
+                android:textColor="@color/newTextColor"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textAlignment="textStart"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/OctalToHexaAlochona1"
+                android:textColor="@color/newTextColor"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/OctalToHexaAlochona2"
+                android:textColor="@color/newTextColor"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="203dp"
+                android:src="@drawable/octaltohexapic"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/OctalToHexaAlochona3"
+                android:textColor="@color/newTextColor"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

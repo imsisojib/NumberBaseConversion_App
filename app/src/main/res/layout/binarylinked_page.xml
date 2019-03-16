@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/backgroundColorGreen"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/binaryHighlights"
+                android:textColor="@color/newTextColor"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textAlignment="textStart"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/binaryIntroduction"
+                android:textColor="@color/newTextColor"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@color/backgroundColorWhite"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/binaryInroduction2"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/newTextColor"
+                android:textAlignment="textStart"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/backgroundColorWhite"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/binRupantorIntro"
+                android:textSize="20sp"
+                android:textColor="@color/newTextColor"
+                android:textAlignment="textStart"
+                />
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:padding="10dp"
+                   android:orientation="vertical"
+                   android:layout_height="wrap_content">
+                   <Button
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/binToDecRupantor"
+                       android:id="@+id/binToDecText"
+                       android:padding="5dp"
+                       android:textColor="@color/newTextColor"
+                       android:textStyle="bold"
+                       android:background="@color/buttonBackgroundBlue"
+                       android:textAlignment="center"
+                       android:layout_marginBottom="10dp"
+                       android:textSize="20sp"
+                       />
+                   <Button
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/binToOctalRupantor"
+                       android:padding="5dp"
+                       android:textColor="@color/newTextColor"
+                       android:textStyle="bold"
+                       android:background="@color/buttonBackgroundBlue"
+                       android:id="@+id/binToOctText"
+                       android:textAlignment="center"
+                       android:layout_marginBottom="10dp"
+                       android:textSize="20sp"
+                       />
+                   <Button
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/newTextColor"
+                       android:padding="5dp"
+                       android:textStyle="bold"
+                       android:text="@string/binToHexaDecimalRupantor"
+                       android:background="@color/buttonBackgroundBlue"
+                       android:id="@+id/binToHexaText"
+                       android:textAlignment="center"
+                       android:layout_marginBottom="10dp"
+                       android:textSize="20sp"
+                       />
+
+
+
+               </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

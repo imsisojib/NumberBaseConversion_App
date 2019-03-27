@@ -40,9 +40,6 @@
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".HexaToOctal"
             android:parentActivityName=".MainActivity"/>
-        <activity android:name=".DeveloperInfo"
-            android:parentActivityName=".MainActivity"/>
-
         <activity android:name=".Page1"
             android:parentActivityName=".MainActivity"/>
 

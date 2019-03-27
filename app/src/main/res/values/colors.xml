@@ -9,9 +9,11 @@
     <color name="highlights">#FFFF0055</color>
     <color name="colorGreen">#FF00C853</color>
     <color name="buttonBackground">#9c86f484</color>
-    <color name ="newTextColor">#020000</color>
+    <color name ="colorBlack">#2b2b2b</color>
     <color name="backgroundColorWhite">#ffffff</color>
     <color name="backgroundColorGreen">#9c86f484</color>
     <color name="buttonBackgroundBlue">#9c86f484</color>
+    <color name="newTextColor">#f3000000</color>
+
 
 </resources>

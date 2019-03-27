@@ -51,16 +51,4 @@
     android:title="@string/hexaToDecimal">
     </item>
 
-    <item android:id="@+id/dev_id"
-        android:title="@string/devInfo"
-        android:icon="@mipmap/devicon">
-
-    </item>
-
-    <item android:id="@+id/exit_id"
-        android:title="@string/exit"
-        android:icon="@mipmap/exit">
-    </item>
-
-
 </menu>

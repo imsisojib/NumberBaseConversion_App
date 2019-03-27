@@ -26,12 +26,13 @@
     <string name="inputHexa">হেক্সাডেসিমাল সংখ্যা লিখুন</string>
 
 
+    <string name="contactString">Contact</string>
     <string name="developer">Developed by @Md. Sirajul Islam Sojib</string>
     <string name="myname">Md. Sirajul Islam Sojib</string>
     <string name="university">International Islamic University Chittagong</string>
     <string name="devInfo">Developer Info</string>
-    <string name="gmail">Email: sirajulislam1123@gmail.com</string>
-    <string name="fblink">www.facebook.com/iMsiSojib</string>
+    <string name="gmail">imsisojib@gmail.com</string>
+    <string name="fblink">facebook.com/iMsiSojib</string>
     <string name="exit">Exit</string>
 
     <string name="welcome">স্বাগতম</string>
